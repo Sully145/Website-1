@@ -71,9 +71,14 @@ section {
 }
 .sect1 {
 	padding-top: 30%;
-	background-image: url(images/landingpage.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+  background: url(images/landingpage.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #times {
 	width: 100%;
