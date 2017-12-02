@@ -69,6 +69,42 @@ section {
     color: white;
     text-align: center;
 }
+#times {
+	margin-top: 10%;
+}
+.clockheaders {
+	width: 100%;
+	padding-top: 30%;
+	padding-bottom: 10%;
+}
+#swat {
+	float: left;
+	width: 50%;
+	margin-left: -8%;
+}
+#derby {
+	float: right;
+	width: 50%;
+	margin-right: -8%;
+}
+.clocks {
+	width: 100%;
+	text-align: center;
+}
+#clockswat {
+	width: 50%;
+	float: left;
+	margin-left: -8%;
+	margin-top: -2%;
+	text-align: center;
+}
+#clockuk {
+	width: 50%;
+	float: right;
+	margin-right: -8%;
+	margin-top: -2%;
+
+}
 .sect2 {
     background-color: #ffffff;
 }
