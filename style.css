@@ -129,13 +129,13 @@ section {
 
 #img1 {
 	width: 49%;
-	height: 90%;
+	height: auto;
 	float: left;
 	margin-right: 1%;
 }
 #img2 {
 	width: 49%;
-	height: 90%;
+	height: auto;
 }
 footer {
     width: 100%;
