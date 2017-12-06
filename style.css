@@ -1,6 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
+    padding:0;
     background-color: white;
 }
 h1 {
@@ -96,7 +97,6 @@ p {
 section {
     height: 96vh;
     width: auto;
-    margin: 6px;
     text-align: center;
 }
 .sect1 {
