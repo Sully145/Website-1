@@ -1,22 +1,22 @@
 body {
     font-family: "Lato", sans-serif;
-    margin:0;
+    margin: 0;
     background-color: white;
 }
 h1 {
-  font-family: Georgia;
-  font-size: 3em;
-  color: #eeeeee;
-  padding-top: 40%;
-  margin: 0;
+    font-family: Georgia;
+    font-size: 3em;
+    color: #eeeeee;
+    padding-top: 40%;
+    margin: 0;
 }
 h2 {
-  font-size: 1.5em;
-  color: #eeeeee
+    font-size: 1.5em;
+    color: #eeeeee
 }
 h3 {
-	font-size: 1em;
-	color: #eeeeee;
+    font-size: 1em;
+    color: #eeeeee;
 }
 p {
     text-indent: 2px;
@@ -41,17 +41,18 @@ p {
     opacity: 0.9;
 }
 .nav ul {
-	list-style-type: none;
+    list-style-type: none;
+    padding-top: 10%;
+    text-align: center;
 }
 .nav a {
-    padding: 8px 8px 8px 32px;
+    padding-top: 10%;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #818181;
     display: block;
     transition: 0.3s;
     display: table-cell;
-    vertical-align: middle;
 }
 .nav a:hover {
     color: #f1f1f1;
@@ -64,13 +65,33 @@ p {
     margin-left: 50px;
 }
 #navbutton {
-    opacity:0.9;
-    bottom:50%;
+    opacity: 0.9;
+    bottom: 50%;
     position: fixed;
-    padding:10px;
-    background-color:#111;
+    padding: 10px;
+    background-color: #111;
     border-radius: 50%;
-    margin-left:-50px;
+    margin-left: -50px;
+}
+.socialnav {
+    list-style-type: none;
+    margin-left: -25%;
+    text-align: center;
+}
+.socialnav li {
+    display: inline;
+}
+.socialnav a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    display: table-cell;
+    padding: 8px;
+}
+.socialnav a:hover {
+    color: #f1f1f1;
 }
 section {
     height: 96vh;
@@ -79,63 +100,60 @@ section {
     text-align: center;
 }
 .sect1 {
-	background-image: url(images/landingpage.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	text-align: center;
+    background-image: url(images/landingpage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 #lptitle {
-	padding-top: 42%;
+    padding-top: 42%;
 }
 #clock1 {
-	width: 49%;
-	float: left;
-	margin-top: 40%;
+    width: 35%;
+    float: left;
+    margin-top: 40%;
 }
 #clock2 {
-	width: 49%;
-	float: right;
-	margin-top: 40%;
+    width: 35%;
+    float: right;
+    margin-top: 40%;
 }
 .sect2 {
-	height: 80vh;
+    height: auto;
 }
-#mountainimg{
-	padding-top: 10%;
-	height: 10%;
-	width: auto;
+#mountainimg {
+    padding-top: 10%;
+    height: 40px;
 }
 .sect2 h2 {
-	font-size: 1em;
-	color: #4d4d4d;
-	width: 50%;
-	height: auto;
-	margin-left: 25%;
-	vertical-align: baseline;
-	text-align: center;
-	line-height: 23px;
+    font-size: 1em;
+    color: #4d4d4d;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 23px;
 }
 .sect3 {
-	padding-bottom: 5%;
-	margin-top: 5%;
-	height: 60vh;
+    margin-top: 5%;
+    height: auto;
 }
-#img-title{
-	font-family: Georgia;
-	font-size: 0.7em;
-	color: #666666;
-	font-style: italic;
+#img-title {
+    font-family: Georgia;
+    font-size: 0.7em;
+    color: #666666;
+    font-style: italic;
 }
-
 #img1 {
-	width: 49%;
-	height: auto;
-	float: left;
-	margin-right: 1%;
+    width: 49%;
+    height: auto;
+    float: left;
+    margin-right: 1%;
 }
 #img2 {
-	width: 49%;
-	height: auto;
+    width: 49%;
+    height: auto;
 }
 footer {
     width: 100%;
@@ -152,7 +170,7 @@ footer {
     padding: 0px 5px 0px 5px;
 }
 .primarynav li a {
-    font-size:0.9em;
+    font-size: 0.9em;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -161,7 +179,7 @@ footer {
     color: #f5f5f5;
 }
 .social {
-	margin: -2px;
+    margin: -2px;
     list-style-type: none;
     text-align: center;
     background-color: #1a1a1a;
@@ -175,7 +193,7 @@ footer {
     padding: 5px;
     color: #404040;
 }
-.social :hover{
+.social:hover {
     color: #f5f5f5;
 }
 .copyright {
@@ -186,26 +204,25 @@ footer p {
     text-align: center;
     font-size: 0.8em;
     color: #ffffff;
-    margin:0;
+    margin: 0;
 }
 footer ul {
     margin: -1px;
 }
-
-@media screen and (min-width:600px) {
-body {
-	background-color: yellow;
-}
-h1 {
-	color: #eeeeee;
-	text-shadow: 0px 13px 70px #000;
-}
-section {
-	height: 55vh;
-	margin-bottom: 15px;
-}
-.sect1 {
-	padding-top: 20%;
-	background-attachment: fixed;
-}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    h1 {
+        color: #eeeeee;
+        text-shadow: 0px 13px 70px #000;
+    }
+    section {
+        height: 55vh;
+        margin-bottom: 15px;
+    }
+    .sect1 {
+        padding-top: 20%;
+        background-attachment: fixed;
+    }
 }
