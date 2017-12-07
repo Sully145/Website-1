@@ -1,19 +1,21 @@
-body {
-    font-family: "Lato", sans-serif;
+*{
     margin: 0;
-    padding:0;
-    background-color: white;
+    padding: 0;
+    border: 0;
+}
+html, body{
+    font-family: 'Arial', serif;
+    height: 100%;
+    width: 100%;
 }
 h1 {
     font-family: Georgia;
-    font-size: 3em;
+    font-size: 2em;
     color: #eeeeee;
-    padding-top: 40%;
-    margin: 0;
 }
 h2 {
-    font-size: 1.5em;
-    color: #eeeeee
+    font-size: 1.2em;
+    color: #eeeeee;
 }
 h3 {
     font-size: 1em;
@@ -22,11 +24,15 @@ h3 {
 p {
     text-indent: 2px;
     letter-spacing: 1px;
-    line-height: 20px;
-    font-size: 0.9em;
-    margin: 12px;
+    line-height: 25px;
+    font-size: 0.8em;
+    margin: 5%;
     font-family: Georgia;
     color: #666666;
+}
+section {
+    height: 100%;
+    width: 100%;
 }
 .nav {
     margin-top: -10px;
@@ -43,17 +49,19 @@ p {
 }
 .nav ul {
     list-style-type: none;
-    padding-top: 10%;
+    padding-top: 30%;
     text-align: center;
+    margin-left: 27%;
 }
 .nav a {
-    padding-top: 10%;
+    padding-top: 20%;
     text-decoration: none;
     font-size: 2em;
     color: #818181;
     display: block;
     transition: 0.3s;
     display: table-cell;
+    vertical-align: middle;
 }
 .nav a:hover {
     color: #f1f1f1;
@@ -79,6 +87,10 @@ p {
     margin-left: -25%;
     text-align: center;
 }
+.nav .socialnav {
+	padding-top: 10%;
+	margin-left: 0%;
+}
 .socialnav li {
     display: inline;
 }
@@ -94,38 +106,42 @@ p {
 .socialnav a:hover {
     color: #f1f1f1;
 }
-section {
-    height: 96vh;
-    width: auto;
-    text-align: center;
-}
-.sect1 {
-    background-image: url(images/landingpage.jpg);
+.intro {
+    background: url("images/background.jpg");
+    display: table;
     background-size: cover;
     background-attachment: fixed;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
 }
-#lptitle {
-    padding-top: 42%;
+.content h1 {
+    font-family: 'Railway', sans-serf;
+    color: #ffffff;;
+    text-shadow: 50px 100px 100px #000;
+    vertical-align: middle;
 }
-#clock1 {
-    width: 35%;
-    float: left;
-    margin-top: 40%;
+.content h2 {
+    vertical-align: bottom;
 }
-#clock2 {
-    width: 35%;
-    float: right;
-    margin-top: 40%;
-}
-.sect2 {
+#sect1 {
     height: auto;
+    text-align: center;
 }
 #mountainimg {
-    padding-top: 10%;
+    margin-top: 5%;
     height: 40px;
+    width: auto;
+    align-content: center;
 }
-.sect2 h2 {
+#sect1 h2 {
     font-size: 1em;
     color: #4d4d4d;
     width: 50%;
@@ -135,9 +151,10 @@ section {
     text-align: center;
     line-height: 23px;
 }
-.sect3 {
-    margin-top: 5%;
+#sect2 {
+    margin-top: 10%;
     height: auto;
+    text-align: center;
 }
 #img-title {
     font-family: Georgia;
@@ -146,13 +163,35 @@ section {
     font-style: italic;
 }
 #img1 {
-    width: 49%;
+    width: 50%;
     height: auto;
     float: left;
-    margin-right: 1%;
 }
 #img2 {
-    width: 49%;
+    width: 50%;
+    height: auto;
+}
+#sect3 {
+    margin-top: 5%;
+    text-align: center;
+}
+#sect3 h2 {
+    font-size: 1em;
+    color: #4d4d4d;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 23px;
+}
+#swatpalace {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+#himalayas {
+    width: 50%;
     height: auto;
 }
 footer {
@@ -179,6 +218,117 @@ footer {
     color: #f5f5f5;
 }
 .social {
+   display: none;
+}
+.copyright {
+    background-color: #1a1a1a;
+}
+footer p {
+    padding: 5px 0 9px 0;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ffffff;
+    margin: 0;
+}
+footer ul {
+    margin: -1px;
+}
+@media screen and (min-width: 600px) {
+body {
+    background-color: #ffffff;
+}
+p {
+   font-size: 1.3em;
+   line-height: 35px;
+   padding: 1%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+.socialnav {
+	display: none;
+}
+.intro {
+	background: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1 {
+	font-family: 'Railway', sans-serf;
+	color: #ffffff;;
+	text-shadow: 50px 100px 100px #000;
+	font-size: 400%;
+}
+.content p {
+	margin-top: 30px;
+	font-family: 'oswald', sans-serf;
+	color: #ffffff;
+	font-size: 120%;
+	text-shadow: 0px 0px 10px #000000;
+	background:rgba(0, 0, 0, 0.62);
+	border-radius: 10px;
+	align-content: center;
+}
+#mountainimg {
+    margin-top: 10%;
+    height: 80px;
+    width: auto;
+    align-content: center;
+}
+#sect1 h2 {
+    font-size: 1.7em;
+    color: #4d4d4d;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 35px;
+}
+#img-title {
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+footer {
+    width: 100%;
+    background-color: #1a1a1a;
+}
+.primarynav {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+}
+.primarynav li {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+.primarynav li a {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+.primarynav li a:hover {
+    color: #f5f5f5;
+}
+.social {
+	display: inline-block;
     margin: -2px;
     list-style-type: none;
     text-align: center;
@@ -208,21 +358,4 @@ footer p {
 }
 footer ul {
     margin: -1px;
-}
-@media screen and (min-width: 600px) {
-    body {
-        background-color: yellow;
-    }
-    h1 {
-        color: #eeeeee;
-        text-shadow: 0px 13px 70px #000;
-    }
-    section {
-        height: 55vh;
-        margin-bottom: 15px;
-    }
-    .sect1 {
-        padding-top: 20%;
-        background-attachment: fixed;
-    }
 }

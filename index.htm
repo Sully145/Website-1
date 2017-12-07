@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>KPK Swat Valley</title>
+  <title>swat-valley</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+</head>
 <body>
-  <nav>
+<!---Header starts here, containing logo and navigation-->
+  <header>
+    <nav>
     <div id="Sidenav" class="nav">
       <ul>
         <li><a href="javascript:void(0)" class="closebtn" id="navclose">&times;</a> </li>
@@ -34,29 +37,45 @@
     </div>
     <div id="main"> <span id="navbutton" style="font-size:30px;cursor:pointer"><img src="images/nav.png" alt="navigation button icon"></span> </div>
   </nav>
-  <!---End of navigation-->
-  <section class="sect1">
-    <h1 id="lptitle">"Switzerland of Asia"</h1>
-    <div id="clock1">
-      <h2 id="swat">Swat, Pakistan</h2>
-      <h3 id="clockswat">clock</h3> </div>
-    <div id="clock2">
-      <h2 id="derby">Derby, England</h2>
-      <h3 id="clockuk">clock</h3>
+  </header>
+  <section class="intro">
+      <div class="inner">
+        <div class="content">
+        <h1>"Swithzerland of Asia"</h1>
+        <h2 id="swat">Swat, Pakistan</h2>
+        <h3 id="clockswat">clock</h3> 
+        <h2 id="local">local, England</h2>
+        <h3 id="clockuk">clock</h3>
+        </div>
+      </div>
     </div>
-  </section>
-  <main>
-    <section class="sect2"> <img id="mountainimg" src="images/mounatins.png" alt="mountains illustration">
-      <h2>Swat is a valley and an administrative district in KPK, Pakistan</h2>
-      <p>Swat valley is one of the major tourist attractions of Pakistan. It is known as the Switzerland of Pakistan, it has one of the oldest civilizations history and one of the beautiful scenery one could ever see. It lies between 34°-40′ to 35° N latitude and 72′ to 74°-6′ E longitude. It is located between the foothills of Hindukush mountain range. It is the part of the North-West Frontier Province of Pakistan. The location of Swat valley has a major strategic importance as it lies in the region where South Asia, Central Asia and China meet.From March till October, Swat has the best season for tourism. The valley welcomes the people through its magnificent mountains, lush green forests, running streams and meadows.Some of the major languages spoken in the swat valley area are Pushto and Kohistani. Nowadays Urdu and English are also spoken by the locals. </p>
     </section>
-    <section class="sect3">
+<!--End of header-->
+  <main>
+    <section  id="sect1" class="section"> 
+      <img id="mountainimg" src="images/mounatins.png" alt="mountains illustration">
+      <h2>Swat is a valley and an administrative district in KPK, Pakistan</h2>
+      <p>Swat valley is one of the major tourist attractions of Pakistan. It is known as the Switzerland of Pakistan. The valley has one of the oldest civilizations history and one of the beautiful scenery one could ever see.  Swat is located in the foothills of Hindukush mountain range and is part of the Khyber Pakhtunkhwa (KPK) Pakistan. The location of Swat valley has a major strategic importance as it lies in the region where South Asia, Central Asia and China meet. From March until October, Swat has the best season for tourism. The valley welcomes the people through its magnificent mountains, lush green forests, running streams and meadows.Some of the major languages spoken in the Swat valley area are Pushto and Kohistani. Nowadays Urdu and English are also spoken by the locals.  its magnificent mountains, lush green forests, running streams and meadows.Some of the major languages spoken in the Swat valley area are Pushto and Kohistani. Nowadays Urdu and English are also spoken by the locals.  </p>
+    </section>
+    <section id="sect2" class="section">
       <p id="img-title">Below are two notable people from Valley Swat</p> 
       <img id="img1" src="images/Malala-Yousafzai.jpg" alt="Malala-Yousafzai"> 
       <img id="img2" src="images/wali-swat.jpg" alt="wali-swat"> 
     </section>
+    <section id="sect3" class="section">
+      <h2>Tourism</h2>
+      <p>Swat had a thriving economy based on eco-tourism till just a few years ago. Foreigners and locals alike would visit Swat for its glacial lakes, trout fishing and mountain climbing for extremely affordable prices. Most of the local Pashtuns were directly or indirectly employed by the tourism industry. The Pakistsn Tourism Development Corporation (PTDC) had developed numerous holiday resorts in each of the tourist sites in the Valley which were very well maintained.</p>
+      <p>
+      The Minitry of Tourism in Pakistan has now closed Swat to tourism because of the heightened security threat posed by the Taliban. One of the only affordable holiday destinations in Pakistan, the Swat Valley, is not even a shadow of what it used to be.
+      Below are the main tourist towns in Swat.</p>
+      <div id="images">
+      <img id="swatpalace" src="images/white-palace.jpg">
+      <img id="himalayas" src="images/tourism.jpg">
+      </div>
+    </section>
   </main>
-  <!--End of main content section-->
+  <br>
+<!--End of main content section-->
   <footer>
     <ul class="primarynav">
       <li><a href="/">ECONOMY</a> </li>
@@ -85,7 +104,7 @@
   <footer class="copyright">
     <p>&copy; iftikhar Khan Website.</p>
   </footer>
-  <!--end of footer-->
+<!--end of footer-->
   <script src="js/nav.js"></script>
   <script src="js/clock.js"></script>
 </body>
