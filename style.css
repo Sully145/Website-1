@@ -107,6 +107,8 @@ section {
     color: #f1f1f1;
 }
 .intro {
+	width: 97%;
+	margin: 1.5%;
     background: url("images/background.jpg");
     display: table;
     background-size: cover;
@@ -142,7 +144,7 @@ section {
     align-content: center;
 }
 #sect1 h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #4d4d4d;
     width: 50%;
     height: auto;
@@ -152,31 +154,35 @@ section {
     line-height: 23px;
 }
 #sect2 {
-    margin-top: 10%;
-    height: auto;
+    margin-top: 5%;
     text-align: center;
 }
 #img-title {
     font-family: Georgia;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #666666;
     font-style: italic;
 }
+#wraper {
+	width: 90%;
+	margin: 5%;
+}
 #img1 {
-    width: 50%;
+    width: 49.5%;
     height: auto;
     float: left;
 }
 #img2 {
-    width: 50%;
+    width: 49.5%;
     height: auto;
+    float: right;
 }
 #sect3 {
-    margin-top: 5%;
+    margin-top: 50%;
     text-align: center;
 }
 #sect3 h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #4d4d4d;
     width: 50%;
     height: auto;
@@ -186,13 +192,32 @@ section {
     line-height: 23px;
 }
 #swatpalace {
-    width: 50%;
-    height: auto;
-    float: left;
+	width: 84%;
+	height: auto;
+	margin: 8%;
+	margin-top: -2%;
 }
-#himalayas {
+#sect4 {
+	background-color: #e6e6e6;
+	margin: 1.5%;
+	width: 97%;
+}
+#history {
+	padding-top: 8%;
+	width: 50%;
+	width: 250px;
+	height: 300px;
+	margin-left: 15%;
+}
+#sect4 h2 {
+    font-size: 1.2em;
+    color: #4d4d4d;
     width: 50%;
     height: auto;
+    margin-left: 25%;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 23px;
 }
 footer {
     width: 100%;
