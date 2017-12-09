@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
 </head>
 <body>
-<!---Header starts here, containing logo and navigation-->
+<!---Header starts here, containing navigation and social media links-->
   <header>
     <nav>
     <div id="Sidenav" class="nav">
@@ -18,7 +18,6 @@
         <li><a href="#">History</a> </li>
         <li><a href="#">Culture</a> </li>
         <li><a href="#">Tourism</a> </li>
-        <li><a href="#">Literature</a> </li>
       </ul>
       <ul class="socialnav">
         <li>
@@ -38,19 +37,25 @@
     <div id="main"> <span id="navbutton" style="font-size:30px;cursor:pointer"><img src="images/nav.png" alt="navigation button icon"></span> </div>
   </nav>
   </header>
+  <!--End of header-->
   <section class="intro">
       <div class="inner">
         <div class="content">
         <h1>"Swithzerland of Asia"</h1>
-        <h2 id="swat">Swat, Pakistan</h2>
-        <h3 id="clockswat">clock</h3> 
-        <h2 id="local">local, England</h2>
-        <h3 id="clockuk">clock</h3>
         </div>
       </div>
     </div>
-    </section>
-<!--End of header-->
+  </section>
+  <section id="sectclock">
+        <div id="clock1" class="clocks">
+          <h2 id="swat">Swat, Pakistan</h2>
+          <h3 id="clockswat">clock</h3> 
+        </div>
+        <div id="clock2" class="clocks">
+          <h2 id="local">local, England</h2>
+          <h3 id="clockuk">clock</h3>
+        </div>
+  </section>
   <main>
     <section  id="sect1" class="section"> 
       <img id="mountainimg" src="images/mounatins.png" alt="mountains illustration">
@@ -61,8 +66,10 @@
       <p id="img-title">Below are two notable people from Valley Swat</p> 
       <div id="wraper">
         <img id="img1" src="images/Malala-Yousafzai.jpg" alt="Malala-Yousafzai"> 
-        <img id="img2" src="images/wali-swat.jpg" alt="wali-swat"> 
-      </div>
+        <img id="img2" src="images/wali-swat.jpg" alt="wali-swat">
+      </div id="names">
+        <p id="name1">Malala Yousafzai</p>
+        <p id="name2">Mia Gul Aurangzeb</p>
     </section>
     <section id="sect3" class="section">
       <h2>Tourism</h2>
@@ -79,20 +86,36 @@
       <h2>Queen Elizabeth II in Swat (1961)</h2>
       <p>A rare photograph of Queen Elizabeth II visiting Swat during her visit to Pakistan in 1961. She is flanked by Prince Philip, who accompanied her during the visit, and Miangul Jehanzeb Khan, the last Wali of Swat. Urdu writer and bureaucrat Qudratullah Shahab looks on from behind them.
       It was during this visit that the Queen made her famous comment calling Swat “The Switzerland of the East”.</p>
+      <a href="#">Find out More</a>
+    </section>
+    <section id="sect5" class="section">
+      <div id="team">
+        <h2>Team</h2>
+        <p>The website is created as part of my front end web devloent project, using javascript, HTML and CSS</p>
+      </div>
+      <div id="contact">
+        <h2>Contact</h2>
+        <h3>Say hello</h3>
+        <div id="email">
+          <p>Iftikharkhana44@gmail.com</p> 
+        </div>
+        <h3>You can also call us on:</h3>
+        <div id="number">
+          <p>07809753986</p>
+        </div>
+      </div>
     </section>
   </main>
 <!--End of main content section-->
   <footer>
-    <ul class="primarynav">
+    <ul id="secondarynav">
       <li><a href="/">ECONOMY</a> </li>
       <li><a href="/">ART &amp; ARCHITECTURE</a> </li>
       <li><a href="/">GALLERY</a> </li>
       <li><a href="/">SITEMAP</a> </li>
       <li><a href="/">CONTACTS</a> </li>
     </ul>
-  </footer>
-  <footer class="social">
-    <ul class="social">
+    <ul id="social">
       <li>
         <a href="#" class="fa fa-facebook"></a>
       </li>
@@ -106,8 +129,6 @@
         <a href="#" class="fa fa-youtube"></a>
       </li>
     </ul>
-  </footer>
-  <footer class="copyright">
     <p>&copy; iftikhar Khan Website.</p>
   </footer>
 <!--end of footer-->
