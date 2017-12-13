@@ -4,12 +4,11 @@
     border: 0;
 }
 html, body{
-    font-family: 'Arial', serif;
+ font-family: Helvetica;
     height: 100%;
     width: 100%;
 }
 h1 {
-    font-family: Georgia;
     font-size: 2em;
     color: #eeeeee;
 }
@@ -33,7 +32,6 @@ p {
     line-height: 25px;
     font-size: 0.8em;
     margin: 5%;
-    font-family: Georgia;
     color: #666666;
 }
 section {
@@ -49,28 +47,28 @@ section {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 20%;
     text-align: center;
     opacity: 0.9;
 }
 .nav ul {
     list-style-type: none;
-    padding-top: 30%;
+    padding-top: 80px;
     text-align: center;
-    margin-left: 27%;
+    margin-left: 50px;
 }
 .nav a {
-    padding-top: 20%;
+    padding-top: 20px;
     text-decoration: none;
-    font-size: 2em;
-    color: #818181;
+    font-size: 1.5em;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
     display: table-cell;
     vertical-align: middle;
 }
 .nav a:hover {
-    color: #f1f1f1;
+    color: #818181;
 }
 .nav .closebtn {
     position: absolute;
@@ -81,7 +79,7 @@ section {
 }
 #navbutton {
     opacity: 0.9;
-    bottom: 50%;
+    bottom: 43%;
     position: fixed;
     padding: 10px;
     background-color: #111;
@@ -90,12 +88,11 @@ section {
 }
 .socialnav {
     list-style-type: none;
-    margin-left: -25%;
     text-align: center;
 }
 .nav .socialnav {
 	padding-top: 10%;
-	margin-left: 0%;
+	margin-left: -10px;
 }
 .socialnav li {
     display: inline;
@@ -103,14 +100,14 @@ section {
 .socialnav a {
     text-decoration: none;
     font-size: 2em;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
     display: table-cell;
     padding: 8px;
 }
 .socialnav a:hover {
-    color: #f1f1f1;
+    color: #818181;
 }
 .intro {
 	width: 97%;
@@ -131,7 +128,6 @@ section {
     text-align: center;
 }
 .content h1 {
-    font-family: 'Railway', sans-serf;
     text-shadow: 50px 100px 100px #000;
     vertical-align: middle;
 }
@@ -140,26 +136,24 @@ section {
 	height: auto;
 }
 #clock1 {
-	float: left;
 	background-color: green;
-	width: 45%;
+	width: 50%;
 	text-align: center;
+	float: left;
 }
 #clock2 {
-	float: right;
 	background-color: red;
-	width: 45%;
+	width: 50%;
 	text-align: center;
+	float: right;
 }
 #clock1 h2 {
 	color: #ffffff;
-	width: 70%;
 	margin-top: 1% 1%;
 }
 #clock2 h2 {
 	margin-top: 1% 1%;
 	color: #ffffff;
-	width: 70%;
 }
 #clock1 h3 {
 	color: #ffffff;
@@ -182,7 +176,6 @@ section {
     text-align: center;
 }
 #img-title {
-    font-family: Georgia;
     font-size: 0.8em;
     color: #ffffff;
     font-style: italic;
@@ -248,29 +241,6 @@ section {
 #sect4 a:hover {
 	text-decoration: underline;
 }
-#sect5 {
-	background-color: #ffffff;
-	text-align: center;
-}
-#team {
-	margin-top: 10%;
-}
-#team p {
-	margin-top: -2%;
-	margin: 0 15% 5% 15%;
-}
-#contact h3 {
-	margin-top: 2%;
-}
-#contact p {
-	margin-top: -1%;
-}
-#email {
-	margin-top: 1%;
-}
-#number {
-	margin-top: 1%;
-}
 footer {
     width: 100%;
     background-color: #1a1a1a;
@@ -321,6 +291,11 @@ p {
 .socialnav {
 	display: none;
 }
+.intro {
+	width: 98%;
+	height: 88%;
+	margin: 1%;
+}
 #mountainimg {
     margin-top: 5%;
     height: 80px;
@@ -329,12 +304,26 @@ p {
 	font-size: 1em;
 	background-color: red;
 }
+#history {
+	padding-top: 3%;
+	width: 600px;
+	height: 600px;
+	padding-bottom: 2%;
+}
+#sect4 p {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+#sect4 {
+	padding-bottom: 2%;
+}
 #secondarynav li a {
     font-size: 1.3em;
 }
 #secondarynav li a:hover {
     color: red;
 }
+
 #social {
     margin: -2px;
     list-style-type: none;
