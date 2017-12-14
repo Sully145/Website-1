@@ -8,17 +8,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
-  <!---Header starts here, containing navigation and social media buttons-->
+  <!--The header starts here which includes the navigation for the mobile size screen and larger desktop size screen-->
   <header>
     <nav>
+      <!--This first unordered list is the naviagtion list for larger screens-->
+      <div id="desktopnav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="#">Tourism</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </div>
+      <!--The sidenav is a naviagtion for mobile size screen which opens up from the side of teh screen-->
       <div id="Sidenav" class="nav">
         <ul>
-          <li><a href="javascript:void(0)" class="closebtn" id="navclose">&times;</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="file:///C:/final%20year/front%20end%20web/Website/history.html">History</a></li>
-          <li><a href="#">Culture</a></li>
+          <li><a href="javascript:void(0)" class="closebtn"
+            id="navclose">&times;</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
           <li><a href="#">Tourism</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Gallery</a></li>
         </ul>
+        <!--Here we have a list of social media icons in a unordered list, these go with the mobile size screen navigation-->
         <ul class="socialnav">
           <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
           <li><a href="https://twitter.com/login?lang=en-gb" class="fa fa-twitter"></a></li>
@@ -26,19 +42,21 @@
           <li><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>
         </ul>
       </div>
-      <div id="main"> <span id="navbutton" style="font-size:30px;cursor:pointer"><img src="images/nav.png" alt="navigation button icon"></span> 
+      <div id="main"> <span id="navbutton" style="font-size:30px;cursor:pointer"><img src="images/nav.png" alt="navigation button icon"></span>
       </div>
     </nav>
   </header>
-  <!--End of header-->
-  <section class="intro">
+  <!-- End of Header-->
+  <main>
+  	<!-- This is the intro section, this includes the Page title and two clocks which have enternal links to a javascript file. One of the clock shows teh time for local time the other shows the time of pakistan.-->
+    <section class="intro">
     <div class="inner">
       <div class="content">
         <h1>"Switzerland of Asia"</h1> 
       </div>
     </div>
-  </section>
-  <section id="sectclock">
+ 	</section>
+  	<section id="sectclock">
     <div id="clock1" class="clocks">
       <h2 id="swat">Swat, Pakistan</h2>
       <h3 id="clockswat">clock</h3> </div>
@@ -47,8 +65,6 @@
       <h3 id="clockuk">clock</h3> 
     </div>
   </section>
-  <!-- End of the landing page section, this includes the Page title and two clocks which have enternal links to a javascript file. One of the clock shows teh time for local time the other shows the time of pakistan.-->
-  <main>
     <section id="sect1" class="section"> 
       <img id="mountainimg" src="images/mounatins.png" alt="mountains illustration">
       <h2>Swat is a valley and an administrative district in KPK, Pakistan</h2>

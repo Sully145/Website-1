@@ -1,12 +1,11 @@
 *{
-    margin: 0;
     padding: 0;
-    border: 0;
 }
-html, body{
- font-family: Helvetica;
+body{
+    font-family: Helvetica;
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 h1 {
     font-size: 2em;
@@ -38,6 +37,9 @@ section {
     height: 100%;
     width: 100%;
 }
+#desktopnav {
+    display: none;
+}
 .nav {
     margin-top: -10px;
     height: 100%;
@@ -53,7 +55,7 @@ section {
 }
 .nav ul {
     list-style-type: none;
-    padding-top: 80px;
+    padding-top: 40px;
     text-align: center;
     margin-left: 50px;
 }
@@ -92,7 +94,7 @@ section {
 }
 .nav .socialnav {
 	padding-top: 10%;
-	margin-left: -10px;
+	margin-left: -15px;
 }
 .socialnav li {
     display: inline;
@@ -130,6 +132,7 @@ section {
 .content h1 {
     text-shadow: 50px 100px 100px #000;
     vertical-align: middle;
+    padding: 50% 0 50% 0;
 }
 #sectclock {
 	width: 100%;
@@ -288,9 +291,33 @@ p {
     line-height: 28px;
     font-size: 1.1em;
 }
-.socialnav {
-	display: none;
-}
+    .nav {
+        display: none;
+    }
+    #navbutton {
+        display: none;
+    }
+    #desktopnav {
+        display: inline-block;
+        width: 100%;
+    }
+    #desktopnav ul {
+        padding: 0;
+    }
+    #desktopnav li {
+        list-style-type: none;
+        display: inline-block;
+    }
+    #desktopnav li a{
+        font-size: 1.05em;
+        color: #000;
+        padding: 4px 16px;
+        text-decoration: none;
+    }
+    #desktopnav li a:hover {
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
 .intro {
 	width: 98%;
 	height: 88%;

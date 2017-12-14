@@ -1,11 +1,11 @@
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
 body {
     background: white;
     font-family: Helvetica;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    color: #211922;
 }
 h2 {
     font-size: 2.5em;
@@ -41,9 +41,9 @@ p {
 }
 .nav ul {
     list-style-type: none;
-    padding-top: 40px;
+    padding-top: 80px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .nav a {
     padding-top: 20px;
@@ -80,7 +80,7 @@ p {
 }
 .nav .socialnav {
     padding-top: 10%;
-    margin-left: -15px;
+    margin-left: -50px;
 }
 .socialnav li {
     display: inline;
@@ -119,93 +119,38 @@ section {
 .inner-section h2 {
     margin: 0;
 }
-#section2 {
-    width: 90%;
-    margin: 5%;
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexbox div {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 img {
     width: 100%;
+    height: 100%;
+}
+.inner-section2 p{
+    margin: -30px;
 }
 #section3 {
-    display: table;
-    height: auto;
-    background-color: #000;
-    padding: 10% 0 10% 0;
-}
-.inner-section3 {
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    padding: 10px 0;
 }
-.inner-section3 p {
-    color: #d9d9d9;
+#section3 h3 {
+    color: #000;
+    padding: 0;
 }
-#section4 {
-    display: table;
-    height: auto;
-    padding: 10% 0 10% 0;
-    background-image: url(images/agriculture.jpg);
-    background-size: cover;
-}
-.inner-section4 {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-.inner-section4 p {
-    color: #d9d9d9;
-}
-#section5 {
-    display: table;
-    height: auto;
-    padding: 10% 0 10% 0;
-    background-image: url(images/taliban-mobile.jpg);
-    background-size: cover;
-}
-.inner-section5 {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-.inner-section5 p {
-    color: #d9d9d9;
-}
-footer {
+#innersectionfirsthalf {
     width: 100%;
-    background-color: #1a1a1a;
 }
-#secondarynav {
-    list-style: none;
-    text-align: center;
-    padding: 20px 0px 10px 0;
-}
-#secondarynav li {
-    display: inline-block;
-    padding: 0px 5px 0px 5px;
-}
-#secondarynav li a {
-    font-size: 0.9em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffffff;
-}
-#secondarynav li a:hover {
-    color: #f5f5f5;
-}
-#social {
-    display: none;
-}
-footer p {
-    padding: 5px 0 9px 0;
-    text-align: center;
-    font-size: 0.8em;
-    color: #ffffff;
-    margin: 0;
+#innersectionsecondhalf {
+    width: 100%;
 }
 @media screen and (min-width: 600px) {
-    body {
-    margin-top: 16px;
-    }
     h2 {
         font-size: 4em;
     }
@@ -240,42 +185,24 @@ footer p {
         text-decoration: underline;
         text-decoration-color: red;
     }
-    #section4 {
-        background-size: cover;
-        background-attachment: fixed;
+    .flexbox div {
+    width: 50%;
     }
-    #section5 {
-        background-image: url(images/taliban.jpg);
+    .inner-section2 p{
+    display: table-cell;
+    vertical-align: middle;
     }
-    #secondarynav li a {
-        font-size: 1.3em;
+    .inner-section2 h3{
+    padding-top: 20%;
     }
-    #secondarynav li a:hover {
-        color: red;
+    #innersectionfirsthalf {
+    width: 50%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
     }
-    #social {
-        margin: -2px;
-        list-style-type: none;
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-    }
-    #social li {
-        display: inline;
-    }
-    #social a {
-        font-size: 1.6em;
-        margin: 1px;
-        padding: 5px;
-        color: #404040;
-    }
-    #social a:hover {
-        color: #f5f5f5;
-    }
-    footer p {
-        font-size: 0.9em;
-    }
-    #section1 {
-        padding-top: 25px;
+    #innersectionsecondhalf {
+    width: 50%;
+    float: right;
     }
 }
