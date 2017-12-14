@@ -131,35 +131,20 @@ section {
     vertical-align: middle;
     padding: 50% 0 50% 0;
 }
-#sectclock {
-	width: 100%;
-	height: auto;
+#clocks {
+    text-align: center;
 }
-#clock1 {
-	background-color: green;
-	width: 50%;
-	text-align: center;
-	float: left;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
 }
-#clock2 {
-	background-color: red;
-	width: 50%;
-	text-align: center;
-	float: right;
-}
-#clock1 h2 {
-	color: #ffffff;
-	margin-top: 1% 1%;
-}
-#clock2 h2 {
-	margin-top: 1% 1%;
-	color: #ffffff;
-}
-#clock1 h3 {
-	color: #ffffff;
-}
-#clock2 h3 {
-	color: #ffffff;
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 50%;
+  text-align: center;
+  line-height: 10px;
 }
 #sect1 {
     height: auto;
