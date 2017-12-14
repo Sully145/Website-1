@@ -287,15 +287,28 @@ p {
         list-style-type: none;
         display: inline-block;
     }
-    #desktopnav li a{
+    #desktopnav li a {
         font-size: 1.05em;
         color: #000;
         padding: 4px 16px;
         text-decoration: none;
+        position: relative;
     }
-    #desktopnav li a:hover {
-        text-decoration: underline;
-        text-decoration-color: red;
+    #desktopnav li a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #644c67;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.4s ease-in-out 0s;
+    }
+    #desktopnav li a:hover:before {
+         visibility: visible;
+        transform: scaleX(1);
     }
 .intro {
 	width: 98%;
