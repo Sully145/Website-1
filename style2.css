@@ -1,11 +1,7 @@
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
 body {
     background: white;
     font-family: Helvetica;
+    margin: 0;
 }
 h2 {
     font-size: 2.5em;
@@ -32,7 +28,7 @@ p {
     width: 0;
     position: fixed;
     z-index: 1;
-    background-color: #111;
+    background-color: #211922;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 20%;
@@ -43,7 +39,7 @@ p {
     list-style-type: none;
     padding-top: 40px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .nav a {
     padding-top: 20px;
@@ -70,7 +66,7 @@ p {
     bottom: 43%;
     position: fixed;
     padding: 10px;
-    background-color: #111;
+    background-color: #211922;
     border-radius: 50%;
     margin-left: -50px;
 }
@@ -79,8 +75,8 @@ p {
     text-align: center;
 }
 .nav .socialnav {
-    padding-top: 10%;
-    margin-left: -15px;
+    padding-top: 0;
+    margin-left: -50px;
 }
 .socialnav li {
     display: inline;
@@ -172,25 +168,7 @@ img {
 }
 footer {
     width: 100%;
-    background-color: #1a1a1a;
-}
-#secondarynav {
-    list-style: none;
-    text-align: center;
-    padding: 20px 0px 10px 0;
-}
-#secondarynav li {
-    display: inline-block;
-    padding: 0px 5px 0px 5px;
-}
-#secondarynav li a {
-    font-size: 0.9em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffffff;
-}
-#secondarynav li a:hover {
-    color: #f5f5f5;
+    background-color: #211922;
 }
 #social {
     display: none;
@@ -203,6 +181,9 @@ footer p {
     margin: 0;
 }
 @media screen and (min-width: 600px) {
+    *{
+        margin: 0;
+    }
     body {
     margin-top: 16px;
     }
@@ -230,7 +211,7 @@ footer p {
         list-style-type: none;
         display: inline-block;
     }
-    #desktopnav li a{
+    #desktopnav li a {
         font-size: 1.05em;
         color: #000;
         padding: 4px 16px;
@@ -247,33 +228,26 @@ footer p {
     #section5 {
         background-image: url(images/taliban.jpg);
     }
-    #secondarynav li a {
-        font-size: 1.3em;
-    }
-    #secondarynav li a:hover {
-        color: red;
-    }
-    #social {
-        margin: -2px;
-        list-style-type: none;
+  #social {
         display: inline-block;
-        width: 100%;
+        list-style-type: none;
         text-align: center;
+        padding: 0;
+        width: 100%;
     }
-    #social li {
+    #social li{
         display: inline;
     }
     #social a {
-        font-size: 1.6em;
-        margin: 1px;
-        padding: 5px;
+        font-size: 1.4em;
+        padding: 0 5px;
         color: #404040;
     }
     #social a:hover {
-        color: #f5f5f5;
+        color: red;
     }
-    footer p {
-        font-size: 0.9em;
+    footer p{
+        padding: 0;
     }
     #section1 {
         padding-top: 25px;
