@@ -46,12 +46,4 @@ hr {
     .inner-section2 h3 {
         padding-top: 10%;
     }
-    #innersectionfirsthalf {
-        width: 50%;
-        float: left;
-    }
-    #innersectionsecondhalf {
-        width: 50%;
-        float: right;
-    }
 }

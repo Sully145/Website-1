@@ -182,12 +182,18 @@ footer p {
         display: inline;
     }
     #social a {
-        font-size: 1.4em;
+        font-size: 1.3em;
         padding: 0 5px;
-        color: #404040;
+        color: #ffffff;
     }
     #social a:hover {
         color: red;
+    }
+    .fa {
+    padding: 15px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
     }
     footer p{
         padding: 0;
