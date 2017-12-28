@@ -50,6 +50,19 @@ section {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 120%;
+}
 @media screen and (min-width: 600px) {
   #section2 {
     height: 100%;
