@@ -181,7 +181,7 @@ footer p {
         transition: all 0.4s ease-in-out 0s;
     }
     #desktopnav li a:hover:before {
-         visibility: visible;
+        visibility: visible;
         transform: scaleX(1);
     }
     #social {
@@ -201,12 +201,13 @@ footer p {
     }
     #social a:hover {
         color: red;
+        transition: 3s;
     }
     .fa {
-    padding: 15px;
-    width: 30px;
-    text-decoration: none;
-    margin: 5px 2px;
+    	padding: 15px;
+    	width: 30px;
+    	text-decoration: none;
+    	margin: 5px 2px;
     }
     footer p{
         padding: 0;
