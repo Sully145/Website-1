@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav {
+	text-align: right;
+	padding: 5%;
+}
+a {
+	text-decoration: none;
+	display: block;
+	font-size: 3em;
+	color: #211922;
+	transition: 1s;
+}
+a:hover {
+	opacity: 0.7;
+	transition: 0.4s;
+}
+#section1 {
+	text-align: center;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 30%;
+}
