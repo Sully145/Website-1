@@ -6,6 +6,9 @@ section {
     display: table;
     height: auto;
 }
+#section2 h1 {
+    display: none;
+}
 .inner-section {
     text-align: center;
     display: table-cell;
@@ -28,7 +31,6 @@ section {
 }
 #location {
     background-color: #f2f2f2;
-    padding-top: 1%;
 }
 #imageslider {
     display: flex;
@@ -39,6 +41,17 @@ section {
 #map {
     height: 400px;
     width: 100%;
+}
+#map h1 {
+    display: none;
+}
+#section2 {
+    text-align: center;
+    height: 50%;
+}
+img {
+    width: 100%;
+    height: 50%;
 }
 @media screen and (min-width: 600px) {
 
