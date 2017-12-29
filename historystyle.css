@@ -62,7 +62,7 @@ img {
     display: table;
     height: auto;
     padding: 10% 0 10% 0;
-    background-image: url(images/Taliban-mobile.jpg);
+    background-image: url(images/taliban-mobile.jpg);
     background-size: cover;
 }
 .inner-section5 {
@@ -85,7 +85,7 @@ img {
         background-attachment: fixed;
     }
     #section5 {
-        background-image: url(images/Taliban.jpg);
+        background-image: url(images/taliban.jpg);
     }
     #section1 {
         padding-top: 25px;
