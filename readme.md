@@ -13,3 +13,5 @@ I also have other html pages but they are only applied to the Tourism webpage.
 The webiste is responsive and so changes it's appearance according to the size of the screen it is viewd on. The website is made mobile first and then desktop. The desktop designs also apply to tablets as i did not want to create a seprate design for tablets and the desktop design is suitable for viewing on tablets. 
 
 ### Below i have both the mobile and desktop wireframes for all the pages.
+
+<img src="wireframes/navclose-mobile-wireframe.jpg">
