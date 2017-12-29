@@ -127,6 +127,7 @@ footer p {
     outline: none;
     color: white;
     cursor: pointer;
+    background-color: #660033;
 }
 @media screen and (min-width: 600px) {
     h1 {

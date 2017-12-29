@@ -1,3 +1,3 @@
 function myFunction() {
-    alert("click on the places for more info on the place.");
+    alert("click or tap on 'X' to go back");
 }
