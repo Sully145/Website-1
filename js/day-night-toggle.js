@@ -12,7 +12,7 @@ function toggleNightMode() {
 
   if (backgroundColor == "white") {
         document.getElementById('mydiv').style.backgroundColor="rgba(3, 2, 2, 0.69)";
-        document.getElementById('togBut').innerHTML = "Day";
+        document.getElementById('togBut').innerHTML = "off";
         document.getElementById("lush").style.color = "#ffffff";
         document.getElementById("tour").style.color = "#ffffff"
         document.getElementById("a").style.color = "#ffffff";
@@ -22,7 +22,7 @@ function toggleNightMode() {
 		document.getElementById("e").style.color = "#ffffff";
     } else {
         document.getElementById('mydiv').style.backgroundColor="white";
-        document.getElementById('togBut').innerHTML = "Night";
+        document.getElementById('togBut').innerHTML = "on";
         document.getElementById("lush").style.color = "#211922";
         document.getElementById("tour").style.color = "#211922"
         document.getElementById("a").style.color = "#211922";
