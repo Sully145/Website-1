@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="tourismstyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
-<body>
+<body id="mydiv">
   <!--The header starts here which includes the navigation for the mobile size screen and larger desktop size screen-->
   <header>
     <nav>
       <!--This first unordered list is the naviagtion list for larger screens-->
       <div id="desktopnav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="tourism.html">Tourism</a></li>
-          <li><a href="culture.html">Culture</a></li>
-          <li><a href="locations.html">Locations</a></li>
+          <li><a id="a" href="index.html">Home</a></li>
+          <li><a id="b" href="history.html">History</a></li>
+          <li><a id="c" href="tourism.html">Tourism</a></li>
+          <li><a id="d" href="culture.html">Culture</a></li>
+          <li><a id="e" href="locations.html">Locations</a></li>
         </ul>
       </div>
       <!--The sidenav is a naviagtion for mobile size screen which opens up from the side of teh screen-->
@@ -45,10 +45,11 @@
   </header>
   <!-- End of Header-->
   <main>
+    <button onClick = "toggleNightMode()" id= togBut>Night/Day</button>
     <section id="section1" class="sections">
       <div class="inner-section">
-        <p>The lush-green valley of Swat</p>
-        <h1>TOURISM</h1> 
+        <p id="lush">The lush-green valley of Swat</p>
+        <h1 id="tour">TOURISM</h1> 
       </div>
     </section>
     <section id="section2" class="sections">
@@ -138,5 +139,6 @@
   </footer>
   <script src="js/nav.js"></script>
   <script src="js/scroll.js"></script>
+  <script src="js/day-night-toggle.js"></script>
 </body>
 </html>

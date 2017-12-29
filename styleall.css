@@ -117,6 +117,17 @@ footer p {
     color: #ffffff;
     margin: 0;
 }
+#togBut {
+    float: right;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
 @media screen and (min-width: 600px) {
     h1 {
     font-size: 4em;
@@ -154,6 +165,7 @@ footer p {
         padding: 4px 16px;
         text-decoration: none;
         position: relative;
+        color: #211922;
     }
     #desktopnav li a:before {
         content: "";
